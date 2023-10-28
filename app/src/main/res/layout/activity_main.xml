@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Dog Section -->
+    <ImageView
+        android:id="@+id/dogImage"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:src="@drawable/dog" />
+
+    <TextView
+        android:id="@+id/dogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dog"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/dogDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faithful, loyal canine companion."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dogDetailsButton"
+        android:layout_width="327dp"
+        android:layout_height="37dp"
+        android:text="View Details" />
+
+    <!-- Cat Section -->
+    <ImageView
+        android:id="@+id/catImage"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:src="@drawable/cat" />
+
+    <TextView
+        android:id="@+id/catName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cat"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/catDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Independent, graceful feline friend."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/catDetailsButton"
+        android:layout_width="327dp"
+        android:layout_height="37dp"
+        android:text="View Details" />
+
+    <!-- Bird Section -->
+    <ImageView
+        android:id="@+id/birdImage"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:src="@drawable/bird" />
+
+    <TextView
+        android:id="@+id/birdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bird"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/birdDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elegant, free-spirited avian companion."
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/birdDetailsButton"
+        android:layout_width="327dp"
+        android:layout_height="37dp"
+        android:text="View Details" />
+
+</LinearLayout>
